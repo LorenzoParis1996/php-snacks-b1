@@ -4,16 +4,8 @@ $myText = "Pellentesque vel nibh tristique magna aliquet maximus ac ut ipsum. Do
 
 $paragrahps = explode(".", $myText);
 
-echo $paragrahps[0] . " - ";
-echo $paragrahps[1] . " - ";
-echo $paragrahps[2] . " - ";
-echo $paragrahps[3] . " - ";
-echo $paragrahps[4] . " - ";
-echo $paragrahps[5] . " - ";
-echo $paragrahps[6] . " - ";
-echo $paragrahps[7] . " - ";
-echo $paragrahps[8] . " - ";
-echo $paragrahps[9] . " - ";
-echo $paragrahps[10] . " - ";
+foreach($paragrahps as $sentence) {
+    echo $sentence . " | ";
+}
 
 ?>
